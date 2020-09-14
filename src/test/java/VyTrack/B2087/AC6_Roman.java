@@ -26,7 +26,7 @@ try {
         username.sendKeys("user160");
         password.sendKeys("UserUser123" + Keys.ENTER);
 
-        waitTime(2);
+        waitTime(4);
         WebElement fleetButton = driver.findElement(By.linkText("Fleet"));
         fleetButton.click();
 
